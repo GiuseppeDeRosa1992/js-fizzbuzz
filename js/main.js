@@ -7,7 +7,7 @@ for (numberVariable = 1; numberVariable <=100; numberVariable++) {
     //Creo div in pagina e gli do il valore dei numeri da 1 a 100
     let listNumber = document.querySelector("div.number")
         const div = `<div>${numberVariable}</div>`;
-        listNumber.innerHTML += div
+        
     //Multipli di 3e5
     if (numberVariable % 3 == 0 && numberVariable % 5 == 0) {
         console.log(numberVariable,"FizzBuzz")
@@ -29,6 +29,6 @@ for (numberVariable = 1; numberVariable <=100; numberVariable++) {
     //TuTTi gli altri Numeri  
         else {
         console.log(numberVariable)
-        
+        listNumber.innerHTML += div
     }
 }        

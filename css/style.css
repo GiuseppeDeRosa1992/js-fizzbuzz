@@ -1,5 +1,34 @@
 /*********************** CSS UTILI ***********************/
 body {
-    background-color: black;
+    background-color: dodgerblue;
     color: white;
+}
+
+.w-h-3, .w-h {
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.w-h-3 {
+    padding: 0.8rem;
+}
+
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.blue {
+    background-color: blue;
 }

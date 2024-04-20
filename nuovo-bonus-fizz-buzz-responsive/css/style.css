@@ -1,0 +1,36 @@
+/*********************** CSS UTILI ***********************/
+body {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 19%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.crimson {
+    background-color: crimson;
+}
+
+.green {
+    background-color: green;
+}
+
+.golden {
+    background-color: goldenrod;
+}
+
+.dodger {
+    background-color: dodgerblue;
+}
+
+/************** RESPONSIVE PHONE ********************/
+@media all and (max-width: 500px) {
+    .col-3 {
+        width: 31%;
+        margin: 2px;
+    }
+}
